@@ -1,0 +1,15 @@
+Packet size 1000
+Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz
+
+Window 3.010s: 166.129 Kpck/s ,  1333.374 Mib/s  = 166.672 MiB/s ; 
+Window 23.154s: 170.730 Kpck/s ,  1370.302 Mib/s  = 171.288 MiB/s ;  
+
+
+
+Boost asio version:
+Window 3.003s: 163.193 Kpck/s ,  1309.805 Mib/s  = 163.726 MiB/s ; 
+Window 22.907s: 173.496 Kpck/s ,  1392.502 Mib/s  = 174.063 MiB/s ; 
+
+-O3 -march=native
+Window 3.006s: 182.962 Kpck/s ,  1468.479 Mib/s  = 183.560 MiB/s ;
+Window 21.730s: 183.129 Kpck/s ,  1469.813 Mib/s  = 183.727 MiB/s ; 
